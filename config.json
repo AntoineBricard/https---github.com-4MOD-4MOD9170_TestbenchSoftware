@@ -1,0 +1,15 @@
+{
+    "recording_server_token": "2pMBDj@0iqE`=;EWaA^ED'5>Z15Y'f(5P<[#IE87@Q/91E*1L]$W9(1Kc@Ax8/)",
+    "hardware_version":"3.1.2",
+    "combobox_for_options":true,
+    "io_board_port": "/dev/ttyACM0",
+    "comm_test_STM_port": "/dev/ttyUSB1",
+    "comm_test_CM4_port": "/dev/ttyUSB0",
+    "dpm802_3_voltmeter_port" : "/dev/ttyUSB2",
+    "stm32_firmware": "09_4DMOD_v3.hex",
+    "stm32_final_firmware":"Pego_STM_Firmware.hex",
+    "skipped_tests": [
+        "SEND_KEYSm",
+        "PRINT_LABELm"
+    ]
+}

@@ -1,0 +1,135 @@
+@page {
+    width: 74mm;
+    height: 25mm;
+    margin: 0px;
+}
+p {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 6px;
+    top: 0px;
+    left: 0px;
+}
+code.DC{
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+    position: fixed;
+    top: 20px;
+    left: 148px;
+}
+p.label {
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    top: 6px;
+    left: 84px;
+}
+p.voltage {
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    top: 19px;
+    left: 84px;
+}
+p.infos {
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    top: 39px;
+    left: 9px;
+}
+p.property {
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    top: 67px;
+    left: 9px;
+}
+p.fcc_id {
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    top: 28px;
+    left: 218px;
+}
+p.ic {
+    font-weight: normal;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    top: 36px;
+    left: 220px;
+}
+img.qrcode {
+    height: 19mm;
+    display: inline-block;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 13px;
+    left: 10px;
+}
+img.barcode {
+    height: 5.4mm;
+    width: 31mm;
+    display: inline-block;
+    image-rendering: pixelated;
+    position: fixed;
+    top: 67px;
+    left: 82px;
+}
+p.barcodeText {
+    font-weight: normal;
+    background-color: white;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 7px;
+    position: fixed;
+    top: 72px;
+    left: 108px;
+}
+img.logoWifi {
+    display: inline-block;
+    position: fixed;
+    height: 6mm;
+    top: 3px;
+    left: 156px;
+}
+img.logoCE {
+    display: inline-block;
+    position: fixed;
+    height: 6mm;
+    top: 5px;
+    left: 216px;
+}
+img.logoUKCA{
+    display: inline-block;
+    position: fixed;
+    height: 8mm;
+    top: 4px;
+    left: 250px;
+}
+img.logoTrash {
+    display: inline-block;
+    position: fixed;
+    height: 8mm;
+    top: 56px;
+    left: 254px;
+}
+img.logoDC {
+    display: inline-block;
+    image-rendering: pixelated;
+    position: fixed;
+    font-weight:100;
+    font-size:smaller;
+    height: 4mm;
+    width: 3mm;
+    top: 31px;
+    left: 44px;
+}

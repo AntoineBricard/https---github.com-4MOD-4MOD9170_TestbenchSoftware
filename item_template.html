@@ -1,0 +1,53 @@
+<p>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</p>
+{% if pod_version == 'MAX' %}
+  <p class='label'>
+    <b>{{ sample_name }} </b> MAX <br/>
+  </p>
+{% else %}
+  <p class='label'>
+    <b>{{ sample_name }} </b> MINI <br/>
+  </p>
+{% endif %}
+
+<p class="voltage">
+  VOLTAGE: INPUT 56V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.536A, 30W <br/>
+  DESIGNED IN THE UK <br/>
+  ENGINEERED IN THE UK/EU <br/>
+  MADE IN TUNISIA <br/>
+  PROPERTY OF PEGO LTD. ALLRIGHTS RESERVED.<br/>
+  NO USER-SERVICEABLE PARTS INSIDE.<br/>
+</p>
+<!--
+<p class='fcc_id'>
+  FCC ID: {{ fcc_id }}<br/>
+</p>
+<p class='ic'>
+  IC: {{ ic }}<br/>
+</p>
+-->
+<img class="qrcode" src="{{label_tools.qr_code(sample_id)}}"/>
+<img class='barcode' src='{{label_tools.barcode(barcode_content, module_width=0.6, font_size=0)}}' />
+<p class="barcodeText">{{ barcode_content }}</p>
+
+{% if wifi == 'False' %}
+  <img class='logoWifi' src='./images/NoWifi-nobg.PNG'>
+{% else %}
+  <img class='logoWifi' src='./images/Wifi.svg'>
+{% endif %}
+
+<img class='logoCE' src='./images/CE_logo.svg'>
+<img class='logoUKCA' src='./images/UKCA_filled.svg'>
+<img class='logoTrash' src='./images/BIN_logo.svg'>
+<code class="DC">⎓</code>

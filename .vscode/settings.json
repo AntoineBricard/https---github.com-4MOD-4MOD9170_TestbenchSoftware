@@ -1,0 +1,23 @@
+{
+    "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "search.exclude": {
+        "__pycache__/": true,
+        "build": true,
+        "dist": true,
+        "logs": true,
+        "*.exe": true
+    },
+    "files.exclude": {
+        "__pycache__/": true,
+        "build": true,
+        "dist": true,
+        "logs": false,
+        "*.exe": true,
+    },
+    "editor.renderWhitespace": "trailing",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "python.languageServer": "Pylance",
+    "python.terminal.activateEnvironment": true,
+    "git.ignoreLimitWarning": true
+}
